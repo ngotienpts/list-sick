@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1, 3;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  outline: none;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul li {
+  list-style: none;
+}
+
+input,
+textarea,
+select {
+  outline: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.w-1140 {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.headerr {
+  overflow: hidden;
+  position: relative;
+}
+
+.header__bg {
+  background: #f9f9f9 url(../images/bg-header.jpg) no-repeat 100% 80%/auto 250px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "";
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.header__mask {
+  background: rgba(245, 245, 245, 0.4);
+  height: 100%;
+  position: relative;
+}
+
+.header__content {
+  position: relative;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 15px 0 20px;
+}
+
+.header__content-list {
+  display: flex;
+  align-items: center;
+}
+
+.header__content-item a {
+  font-size: 12px;
+  color: #777;
+}
+
+.header__content-links:after {
+  content: "\\";
+  display: inline-block;
+  margin: 0 4px;
+}
+
+.header__content-title {
+  font-size: 26px;
+  color: #333;
+}
+
+.mainn {
+  margin-top: 20px;
+  position: relative;
+}
+
+.search-alphabet {
+  padding: 20px;
+}
+
+.most-sought-disease__header {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.search-alphabet__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.search-alphabet__items {
+  background: #f6f6f6;
+  height: 40px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.search-alphabet__items + .search-alphabet__items {
+  margin-left: 5px;
+}
+
+.search-alphabet__items a {
+  color: #333;
+  font-size: 18px;
+}
+
+.search-alphabet__items.disable {
+  user-select: none;
+  pointer-events: none;
+}
+
+.search-alphabet__items.disable a {
+  color: #e9e4e4;
+}
+
+.alphabet-header {
+  margin-bottom: 20px;
+}
+
+.most-sought-disease__list,
+.alphabet-header__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 10px 20px;
+}
+
+.most-sought-disease__items a,
+.alphabet-header__items a {
+  display: inline-block;
+  position: relative;
+  padding: 7px 15px;
+}
+
+.most-sought-disease__items a:before,
+.alphabet-header__items a:before {
+  content: "";
+  background: #0876bf;
+  width: 4px;
+  height: 4px;
+  position: absolute;
+  top: 15px;
+  left: 0;
+}
+
+.alphabet-header,
+.most-sought-disease__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.alphabet-header__title {
+  text-transform: uppercase;
+}
+
+.alphabet-header__backtop a {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #999;
+}
+
+.alphabet-header__backtop span {
+  color: #1f9aec;
+  display: inline-flex;
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+span.mb-block {
+  color: #777;
+  font-size: 16px;
+  display: none;
+}
+
+/*===============================================*/
+.mx-20 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.my-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.px-20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.py-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=style.css.map */
